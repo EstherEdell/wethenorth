@@ -42,14 +42,16 @@ padding-bottom:60px;
 }
 #wethenorth .north-rap p {
     margin:0;
-    line-height: 1.4;
+    line-height: 1.3;
 }
+#wethenorth .mt-north {
+    border-top:1px solid #cecece;
 
+}
 #wethenorth .mt-north img {
     max-width:600px;
     width:100%;
     margin:60px auto;
-    
 }
 
 #wethenorth .cta {
@@ -78,6 +80,30 @@ padding-bottom:60px;
 }
 #wethenorth .cta:hover a {
     color:#bf0000;
+}
+
+#wethenorth audio {
+    margin-top:20px;
+}
+
+#wethenorth .video {
+    max-width:800px;
+    width:100%;
+    margin: 0 auto;
+}
+#wethenorth video {
+    max-width:800px;
+    width:100%;
+    margin:20px auto;
+}
+
+#wethenorth footer {
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 800px;
+    width:100%;
+    margin:60px auto;
+    text-align: center;
 }
 @media (max-width:880px) {
     #wethenorth .north-rap {
